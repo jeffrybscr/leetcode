@@ -51,9 +51,7 @@ export function addTwoNumbers(
 
       const sum = num1 + num2;
 
-      const result = toList(sum)
-
-      console.log("===>result",num1, num2,sum, result)
+      const result = toList(sum);
 
       return result;
     }
